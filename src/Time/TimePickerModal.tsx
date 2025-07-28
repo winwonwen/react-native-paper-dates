@@ -108,9 +108,9 @@ export function TimePickerModal({
   let labelText = label
 
   if (theme.isV3) {
-    textFont = theme.fonts.labelMedium
+    textFont = theme.fonts.titleMedium
   } else {
-    textFont = (theme as any as MD2Theme)?.fonts.medium
+    textFont = (theme as any as MD2Theme)?.fonts.regular
   }
 
   if (inputType === inputTypes.keyboard && !label) {
