@@ -146,7 +146,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     width: 96,
-    paddingBottom: 8,
+    paddingBottom: 11,
   },
   input: {
     width: 96,
